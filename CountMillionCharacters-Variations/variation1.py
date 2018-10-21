@@ -27,6 +27,7 @@ def main():
             print(count_chars(inputFile))
         except FileNotFoundError:
             print("File not found...Try again!")
+            print("Please try again!")
 
 
 if __name__ == '__main__':
